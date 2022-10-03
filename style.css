@@ -1,0 +1,129 @@
+
+/* css saya */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaeaea;
+}
+
+.container {
+    width: 1000px;
+    background-color: #fff;
+    margin: auto;
+    border: 2px solid #66BFBF;
+}
+
+.sidebar {
+    width: 300px;
+    float: left;
+    padding: 10px;   
+}
+
+.sidebar img {
+    border: 3px solid #66BFBF;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    float: left;
+    width: 200px;
+    height: 250px;
+}
+
+.sidebar .nama {
+    margin-bottom: -30px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.sidebar .job {
+    margin-bottom: 40px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+
+.sidebar .about {
+    margin-top: -20px;
+    padding: 50px;
+    text-align: center;
+    margin-left: 30px;
+    font-variant: small-caps;
+    color: #66BFBF;
+    text-decoration: underline;
+}
+
+.sidebar .isi {
+    text-align: center;
+    line-height: 23px;
+    margin-left: 40px;
+    margin-top: -60px;
+    padding: 20px;
+}
+
+.sidebar .softskill {
+    margin-top: -20px;
+    padding: 50px;
+    text-align: center;
+    margin-left: 30px;
+    font-variant: small-caps;
+    color: #66BFBF;
+    text-decoration: underline;
+}
+
+.sidebar .social {
+    margin-top: -20px;
+    padding: 50px;
+    text-align: center;
+    margin-left: 30px;
+    font-variant: small-caps;
+    color: #66BFBF;
+    text-decoration: underline;
+}
+
+a {
+    color: #66BFBF;
+}
+
+a:hover {
+    color: #fff;
+    background-color: #66BFBF;
+}
+
+/* class isi */
+.main {
+    width: 600px;
+    padding: 20px;
+    box-sizing: border-box;
+    float: right;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+table tr td{
+    color: #66BFBF;
+    padding: 10px;
+}
+
+
+/* clear fix float */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
